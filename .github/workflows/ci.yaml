@@ -20,5 +20,8 @@ jobs:
 
       - name: Test
         run: npm test
+
+      - name: Cobertura de código
+        uses: actions/coveralls@v3
       
 
