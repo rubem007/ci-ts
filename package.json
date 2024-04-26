@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "src/main.ts",
   "scripts": {
+    "start": "npx ts-node src/main.ts",
+    "serve": "node dist/main.js",
     "build": "tsc",
     "test": "jest"
   },
